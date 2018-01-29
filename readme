@@ -1,5 +1,5 @@
 Task 1 - Backend >
-Senden Heroku üzerinde node.js ile basit bir uygulama yazmanı istiyoruz. https://katilimci-app-ismi.herokuapp.com/searchRecord adresine aşağıdaki formatta HTTP POST isteği yapacağız.
+Senden Heroku üzerinde node.js ile basit bir uygulama yazmanı istiyoruz. https://recaihackathongetir.herokuapp.com/searchRecord adresine aşağıdaki formatta HTTP POST isteği yapacağız.
 
 Örnek istek:
 
@@ -31,6 +31,4 @@ Beklediğimiz cevabın formatı da aşağıda:
             }
       ]
 }
-Sonrasında kodunun repo'sunu public bir şekilde Github'a gönder.
 
-Github reponun ve Heroku'da açtığın uygulamanın adresini hackathon@getir.com'a email at.
