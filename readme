@@ -1,0 +1,36 @@
+Task 1 - Backend >
+Senden Heroku üzerinde node.js ile basit bir uygulama yazmanı istiyoruz. https://katilimci-app-ismi.herokuapp.com/searchRecord adresine aşağıdaki formatta HTTP POST isteği yapacağız.
+
+Örnek istek:
+
+{
+      "startDate" : "2016-01-26"
+      "endDate" : "2017-02-02"
+      "minCount" : 2700
+      "maxCount" : 3000
+}
+Bu uygulama aşağıdaki bilgilerle mongoDB'ye bağlanmalı ve "records" koleksiyonundan senden istediğimiz kaydı bulup dönmeli; mongodb://dbUser:dbPassword@ds155428.mlab.com:55428/getir-bitaksi-hackathon
+
+Beklediğimiz cevabın formatı da aşağıda:
+
+Örnek cevap:
+
+{
+      "code":0,
+      "msg":"Success",
+      "records":[
+            {
+                  "key":"TAKwGc6Jr4i8Z487",
+                  "createdAt":"2017-01-28T01:22:14.398Z"
+                  "totalCount":2800
+            },
+            {
+                  "key":"NAeQ8eX7e5TEg7oH",
+                  "createdAt":"2017-01-27T08:19:14.135Z"
+                  "totalCount":2900
+            }
+      ]
+}
+Sonrasında kodunun repo'sunu public bir şekilde Github'a gönder.
+
+Github reponun ve Heroku'da açtığın uygulamanın adresini hackathon@getir.com'a email at.
